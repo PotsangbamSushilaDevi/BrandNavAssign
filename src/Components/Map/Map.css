@@ -1,0 +1,41 @@
+.map{
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #0b132a;
+    margin: auto;
+    padding-top: 200px;
+}
+.global{
+    width: 33%;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  padding-top: 50px;
+    text-align: center;
+  
+    color: #4f5665;
+}
+.huge-img{
+display: flex;
+padding-top: 110px;
+transform: scale(2.0);
+}
+.map-icons{
+    padding-top:150px;
+    margin: 3rem;
+    display: flex;
+    gap: 5rem;
+    transform: scale(1.2);
+}

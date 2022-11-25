@@ -1,0 +1,56 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+}
+.heading {
+  width: 33%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #4f5665;
+}
+.contain-1 {
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  display: grid;
+  background: #ffffff;
+  
+  padding: 40px;
+}
+.contain-1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+.card1 {
+  background: #ffffff;
+  border: 0.939651px solid #f53838;
+  border-radius: 4.69826px;
+  box-sizing: border-box;
+}
+.card2 {
+  border: 0.939651px solid #dddddd;
+}
+.card3 {
+  border: 0.939651px solid #dddddd;
+  border-radius: 4.69826px;
+}
+.pic {
+  transform: scale(0.5);
+  width: 200px;
+  height: 200px;
+}
